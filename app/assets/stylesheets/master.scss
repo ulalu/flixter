@@ -59,3 +59,32 @@ body {
     background: image_url('pink_rice.png');
     font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
 }
+
+a.btn {
+    padding: 10px 15px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+}
+ 
+a.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+ 
+a.btn-primary {
+    background-color: #677e7e;
+    color: #f7e6da;
+}
+ 
+a.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background-color: #455656;
+    color: #f7e6da;
+}
+ 
+a.btn-primary:active, .btn-primary.active {
+    background-color: #586d6d;
+    box-shadow: none;
+    color: #f7e6da;
+}
