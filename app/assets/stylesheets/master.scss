@@ -2,3 +2,14 @@
 .topclear {
     height: 75px;
 }
+
+.navbar{
+    font-family: 'Ubuntu', sans-serif;
+    box-shadow: 0px 1px 3px #2a2a2a;
+    background: image_url('pink_rice.png');
+}
+
+.navbar-light a.navbar-brand {
+    color: #68AA66;
+}
+
