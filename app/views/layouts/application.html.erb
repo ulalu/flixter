@@ -24,7 +24,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-       <a href="/" a class="nav-link">Home</a>
+       <%= link_to "See Courses", courses_path %>
       </li>
       <% if user_signed_in? %>
         <li class="nav-item">

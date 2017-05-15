@@ -22,8 +22,12 @@
   height: 400px;
 }
 
-h1, h2, h3, h4, h5, h6, .navbar {
+.navbar {
   margin: 0;
+}
+
+h1 {
+    color: #677e7e;
 }
 
 .frosty {
@@ -104,9 +108,7 @@ a.btn-primary:active, .btn-primary.active {
     margin: 10px;
 }
 
-h1, h2 {
-    color: #677e7e;
-}
+
 
 .help-block {
   color: #ff3333;
@@ -114,4 +116,8 @@ h1, h2 {
   border-radius: 3px;
   padding: 2px 8px 2px 8px;
   margin: 10px;
+}
+
+.clr {
+    clear: both;
 }
