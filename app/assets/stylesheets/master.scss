@@ -88,3 +88,22 @@ a.btn-primary:active, .btn-primary.active {
     box-shadow: none;
     color: #f7e6da;
 }
+
+.booyah-box {
+  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  box-shadow: 1px 1px 2px 0 #d0d0d0;
+  background: rgba(255,255,255,.5);
+  border: 1px solid #ccc;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.booyah-box h2 .booyah-box h1 {
+    margin: 10px;
+}
+
+h1, h2 {
+    color: #677e7e;
+}
