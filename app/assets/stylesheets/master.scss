@@ -121,3 +121,30 @@ a.btn-primary:active, .btn-primary.active {
 .clr {
     clear: both;
 }
+
+.lesson {
+    background-color: white;
+    margin-top: 10px;
+    height: 130px;
+    font-size: 15px;
+}
+
+.section {  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  box-shadow: 1px 1px 2px 0 #d0d0d0;
+  background: rgba(255,255,255,.5);
+  border: 1px solid #ccc;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  padding: 10px;
+  margin-top: 10px;}
+  
+  .lesson a { 
+      color: #677e7e;
+      font-family:'Ubuntu', sans-serif;
+      Font-weight: 100;
+  }
+  
+  .lesson a b {
+      font-weight: 100;
+      font-size: 25px;
+  }
