@@ -148,3 +148,44 @@ a.btn-primary:active, .btn-primary.active {
       font-weight: 100;
       font-size: 25px;
   }
+  
+  ul {
+      list-style-type: none;
+  }
+  
+  .section-li {
+      border: 1px solid #ccc;
+      border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+      padding: 20px;
+      margin: 10px;
+  }
+  
+  ul .header { 
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 25px;
+      color: #677e7e;
+      text-transform: uppercase;
+  }
+  
+  ul .header .fa {
+      font-size: 20px;
+  }
+  
+  .lessons li {
+      margin: 10px;
+      background: rgba(255,255,255,.5);
+      padding: 8px;
+      font-family: 'Ubuntu', sans-serif;
+      font-weight: 100;
+      font-size: 15px;
+  }
+  
+  .lessons li b {
+      font-size: 20px;
+      font-weight: 100;
+      color: #677e7e;
+  }
+  
+  .lessons li p {
+      margin: 0;
+  }
